@@ -8,6 +8,7 @@ import (
 
 type Process struct {
 	Name string `json:"name"`
+	PMID int    `json:"pm_id"` // номер процесса в pm2 (#0, #1, ...)
 
 	Monit struct {
 		Memory int64   `json:"memory"`
