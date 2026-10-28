@@ -3,10 +3,10 @@ package monitor
 import (
 	"context"
 	"fmt"
+	"github.com/AlexeyXolosha/pm2-monitor/internal/config"
+	"github.com/AlexeyXolosha/pm2-monitor/internal/pm2"
+	"github.com/AlexeyXolosha/pm2-monitor/internal/telegram"
 	"log"
-	"monitoringPM2/internal/config"
-	"monitoringPM2/internal/pm2"
-	"monitoringPM2/internal/telegram"
 	"strings"
 	"time"
 )

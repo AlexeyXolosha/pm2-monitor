@@ -1,4 +1,4 @@
-module monitoringPM2
+module github.com/AlexeyXolosha/pm2-monitor
 
 go 1.26
 

@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"monitoringPM2/internal/config"
-	"monitoringPM2/internal/monitor"
-	"monitoringPM2/internal/telegram"
+	"github.com/AlexeyXolosha/pm2-monitor/internal/config"
+	"github.com/AlexeyXolosha/pm2-monitor/internal/monitor"
+	"github.com/AlexeyXolosha/pm2-monitor/internal/telegram"
 )
 
 // main — точка входа. Здесь мы только "склеиваем" компоненты:
